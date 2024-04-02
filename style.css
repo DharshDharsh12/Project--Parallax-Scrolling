@@ -1,0 +1,51 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  margin: 0px;
+  background-color: black;
+  font-size: 20px;
+  text-align: center;
+  color: whitesmoke;
+}
+
+.D {
+  position: relative;
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 1000px;
+  filter: grayscale(100);
+}
+
+p {
+  padding: 20px;
+  padding-right: 300px;
+  padding-left: 300px;
+}
+
+h2 {
+  padding-top: 25px;
+}
+
+.head {
+  padding-top: 20px;
+  font-size: 40px;
+  padding-bottom: 25px;
+}
+
+.Footer {
+  background-color: whitesmoke;
+  color: black;
+  padding: 25px;
+}
+
+.D:hover {
+  filter: grayscale(0);
+}
